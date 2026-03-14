@@ -1,0 +1,8 @@
+# Не копируем в Docker-контекст лишнее
+.git
+.gitignore
+.github
+target
+*.md
+.idea
+*.iml
