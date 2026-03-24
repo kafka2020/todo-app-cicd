@@ -25,10 +25,8 @@ import java.util.concurrent.atomic.AtomicLong;
 @RequestMapping("/tasks")
 public class TaskController {
 
-    // Хранение задач в памяти (без БД), как требует задание
     private final List<Task> tasks = new ArrayList<>();
 
-    // Счётчик для генерации уникальных ID
     private final AtomicLong idCounter = new AtomicLong(1);
 
     /**

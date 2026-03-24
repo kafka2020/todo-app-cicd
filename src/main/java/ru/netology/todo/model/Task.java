@@ -3,10 +3,6 @@ package ru.netology.todo.model;
 import jakarta.validation.constraints.NotBlank;
 import java.time.LocalDate;
 
-/**
- * Модель задачи (TODO).
- * Хранится в памяти (без БД), как указано в задании.
- */
 public class Task {
 
     private Long id;
@@ -27,8 +23,6 @@ public class Task {
         this.completed = completed;
         this.createdAt = createdAt;
     }
-
-    // --- Геттеры и сеттеры ---
 
     public Long getId() {
         return id;
