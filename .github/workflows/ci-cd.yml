@@ -93,7 +93,7 @@ jobs:
             # 3. Запускаем новый контейнер
             docker run -d \
               --name todo-app \
-              -p 8081:8080 \
+              -p 8081:8081 \
               --restart unless-stopped \
               ${{ secrets.DOCKER_USERNAME }}/todo-app:latest
 
