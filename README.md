@@ -42,7 +42,7 @@ java -jar target/todo-app-0.0.1-SNAPSHOT.jar
 
 ```bash
 docker build -t todo-app .
-docker run -p 8081:8080 todo-app
+docker run -p 8081:8081 todo-app
 ```
 
 ## CI/CD Pipeline
